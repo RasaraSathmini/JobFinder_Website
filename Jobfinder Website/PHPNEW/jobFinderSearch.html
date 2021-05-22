@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .hedding {
+            border: 1px solid;
+            height: 7vh;
+            border-style: outset;
+            background: rgb(172,172,172);
+background: linear-gradient(90deg, rgba(172,172,172,1) 0%, rgba(246,246,246,1) 100%);
+        }
+
+        .nav {
+            text-decoration: none;
+            display: block;
+            float: left;
+            margin-right: 2%;
+            font-family: century gothic;
+            color: black;
+            margin-top: 1.1%;
+            transition: 0.3s;
+        }
+
+        .home {
+            margin-left: 68%;
+        }
+
+       /* .nav:hover {
+            transform: scale(1.2);
+        }*/
+
+        .titleDiv {
+            /*border: 1px solid;*/
+            height: 12vh;
+        }
+
+        .title {
+            font-size: 260%;
+            text-align: center;
+            margin-top: 1%;
+            visibility: hidden;
+            transition: 0.5s;
+            
+            animation-name: titlesAnime;
+            animation-fill-mode: forwards;
+            animation-duration: 0.8s;
+            animation-delay: 0.5s;
+        }
+
+        .titleHr {
+            width: 12%;
+            color: black;
+            background-color: black;
+            margin-top: -1.5%;
+            transition: 0.5s;
+
+            
+            animation-name: hrAnime;
+            animation-fill-mode: forwards;
+            animation-duration: 0.5s;
+           /* animation-delay: 0.5s;*/
+        }
+          @keyframes titlesAnime{
+            0%{transform: translateY(-7px);visibility: visible}
+            100%{transform: translateY(10px);visibility: visible}
+        }
+       
+        @keyframes hrAnime{
+             0%{width: 0%}
+            100%{width: 12%}
+        }
+        .detailsDiv{
+            /*border: 1px solid;*/
+            height: 76vh;
+            border-style: outset;
+        }
+        .dd{
+          /*  border: 1px solid;*/
+            width: 49%;
+            height: 100%;
+            float: left;
+            
+        }
+        .sb{
+            font-family: century gothic;
+            display: block;
+          /*  border: 1px solid ;*/
+            width: 15%;
+            float: left;
+            text-align: center;
+            margin-left: 30.5%;
+        }
+        .catDropDown{
+            float: left;
+            margin-top: 2%;
+            padding: 1%;
+            width: 20%
+        }
+        .clear{
+            clear: both;
+        }
+        .search {
+            padding: 1%;
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 3%;
+        }
+        .btnSearch{
+            width: 20%;
+            padding: 1%;
+            margin-top: 2%;
+            margin-left: 40%;
+        }
+        img{
+            margin-left: 27%;
+            margin-top: 6%;
+        }
+        .label {
+            width: 100%;
+           /* border: 1px solid;*/
+            font-family: century gothic;
+            
+        }
+        .l{
+            width: 21%;
+            margin-left: 15%;
+            margin-top: 10%;
+            float: left;
+        }
+        .r{
+            float: left;
+            width: 60%;
+           /* border: 1px solid;*/
+            margin-top: 9%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hedding">
+        <a href="DestinationNew.html" class="home nav">Home</a>
+        <a href="jobFinderAdd.html" class="addJob nav">Add job</a>
+        <a href="jobFinderSearch.html" class="findJob nav">Find Job</a>
+        <a href="login.html" class="login nav">Log in</a>
+        <a href="" class="contactUs nav">Contact</a>
+
+    </div>
+    <div class="titleDiv">
+        <h1 class="title">Find Your Job Here</h1>
+        <hr class="titleHr">
+    </div>
+    <div class="detailsDiv">
+        <div class="ddLeft dd">
+            <form action="">
+                <p class="sb">Search by :</p>
+            <select class="catDropDown inp">
+                <option value="volvo">Electrician</option>
+                <option value="saab">Sales</option>
+                <option value="mercedes">Marketing</option>
+                <option value="audi">Software</option>
+            </select>
+               <div class="clear"></div>
+                <input type="text" class="search inp"><br>
+                <button class="btnSearch">Search</button>
+            </form>
+            <img src="Screen-Shot-2019-02-16-at-5.10.56-PM.png" alt="" width="300">
+        </div>
+        <div class="ddRight dd">
+           <div class="l">
+          <strong>  <p class="n label">Name </p>
+            <p class="n label">Salary </p>
+            <p class="n label">Working Hours</p>
+            <p class="n label">Employer </p>
+            <p class="n label">T.N</p>
+            <p class="n label">Adress</p>
+            <p class="n label">E-mail</p>
+            <p class="n label">Vacations</p>
+            <p class="n label">Description</p></strong>
+           </div>
+           <div class="r">
+            <p class="n label">xxx </p>
+            <p class="n label">xxx </p>
+            <p class="n label">xxx</p>
+            <p class="n label">xxxx </p>
+            <p class="n label">xxxx</p>
+            <p class="n label">xxx</p>
+            <p class="n label">xxx</p>
+            <p class="n label">xxx</p>
+            <p class="n label">xxx</p></strong>
+           </div>
+           
+        </div>
+    </div>
+</body></html>

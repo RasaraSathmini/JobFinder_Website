@@ -1,0 +1,297 @@
+/*  
+
+ 
+*/
+.MAIN{
+    height: 97vh;
+    overflow: scroll;
+    position: relative;
+}
+.main1{
+    height: 80%;
+    width: 100%;
+    margin-left: 0%;
+    background-image: url(home.jpg);
+    background-size: 100% 100%;
+    position: relative;
+      filter: blur(8px); 
+ 
+   
+}
+.subMain1{
+    height: 100%;
+  opacity: 1;
+       
+  
+}
+.subMain1P1{
+    height: 78%;
+  
+    width: 76%;
+     margin-top: -27%; /* 27*/
+    margin-left: 12%;
+     -webkit-box-shadow: 2px 4px 50px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 50px 1px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 50px 1px rgba(0,0,0,0.75);
+    background-image: url(main1.jpg);
+   background-position: center;
+    background-size: 100% 100%;
+   position: absolute;
+    transition: 0.5s;
+    overflow: hidden;
+   
+}
+.nav {
+    height: 10%;
+  
+}
+.sname{
+    color: white;
+    font-size: 250%;
+    font-family: "Brush Script MT", cursive;
+    margin-top: -0.4%;
+    margin-left: 1%;
+    float: left;
+}
+.nabBtn{
+    float: left;
+    margin-left: 2%;
+    color: white;
+    cursor: pointer;
+    margin-top: -1.5%;
+    font-family: "Century Gothic", CenturyGothic;
+   
+}
+.home {
+    margin-left: 40%;
+     animation-name: navAnime;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.bp{
+      animation-name: navAnime;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+.projects{
+      animation-name: navAnime;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+.qu{
+      animation-name: navAnime;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+.contact{
+      animation-name: navAnime;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.heddingMain{
+    
+    position: absolute;
+    margin-top: -39%;
+    margin-left: 5%;
+    width: 80%;
+    height: 30%;
+  
+}
+.hPara{
+ 
+    height: 100%;
+    float: left;
+    overflow-x:hidden;
+   
+}
+.hParaLeft{
+    width: 18%;
+}
+.hParaRight{
+   
+     width: 31%;
+}
+.travel{
+    margin-left: 99%; 
+    animation-name: travelAnime;
+    animation-fill-mode: forwards;
+    animation-duration: 0.8s;
+}
+.des{
+    margin-left: -100%;
+        animation-name: desAnime;
+    animation-fill-mode: forwards;
+    animation-duration: 0.8s;
+}
+.hedding{
+    font-size: 350%;
+    font-family: "Century Gothic", CenturyGothic;
+    color: white;
+}
+.rest{
+    height: 100%;
+    
+}
+.trvSl{
+    margin-top: 0%;
+    position: absolute;
+    margin-left: 6%;
+    color: white;
+}
+.sl{
+    font-size: 600%;
+    margin-left: 5%;
+    color: white;
+}
+@keyframes travelAnime{
+    0%{transform: translateX(0px)}
+    100%{transform: translateX(-180px)}
+}
+@keyframes desAnime{
+    0%{transform: translateX(0px)}
+    100%{transform: translateX(330px)}
+}
+@keyframes navAnime {
+    0%{transform: translateY(0px)}
+    75%{transform: translateY(30px)}
+    100%{transform: translateY(25px)}
+}
+/* -------------------------------------------*/
+.top{
+   
+    height: 40vh;;
+   
+}
+.hedCheck{
+    font-size: 200%;
+    margin-top: 5%;
+    text-align: center;
+    font-family: century Gothic;
+}
+.restCheck{
+    width: 20%;
+    margin-left: 39%;
+    font-size: 120%;
+    font-family: century Gothic;
+    text-align: center;
+}
+/* --------------------------------------------*/
+
+.btnRm {
+    width: 10%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    border-style: none;
+    color: white;
+   /* background-color: rgb(255, 184, 7);*/
+    background-color: rgb(216, 154, 0);
+   
+    text-align: center;
+    margin-left: 60%;
+    transition: 0.35s;
+    font-family: century gothic;
+}
+.btnRm:hover{
+    background-color: white;
+  border: 1px solid gold;
+    color: rgb(170, 122, 1);
+    
+}
+/*------------------------------------------------*/
+.main3{
+    
+    height: 100vh;
+    position: relative;
+}
+.pic{
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    height: 35%;
+    float: left;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 18%;
+   -webkit-box-shadow: 0px 10px 44px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 44px 3px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 44px 3px rgba(0,0,0,0.75);
+}
+.wlPic1{
+    background-image: url(jobimg2.jpg);
+    margin-left: 10%;
+    margin-top: 12%;
+}
+.wlPic2{
+    background-color: goldenrod;
+    margin-top: 5%;
+    width: 20%;
+    height: 50vh;
+    margin-left: 39%;
+    margin-top: 1%;
+    background-image: url(jobimg5.JPG);
+}
+.wlPic3{
+    background-color: green;
+    margin-left: 56%;
+    margin-top: 7%;
+    background-image: url(jobimg4.jpg);
+}
+.wlPic4{
+    background-color: red;
+    margin-top: 23%;
+    margin-left: 62%;
+    background-image: url(jobimg1.jpg);
+}
+.wlPic5{
+    background-color: purple;
+    margin-left: 31%;
+    margin-top: 27%;
+    background-image: url(jobimg3.jpg);
+    width: 36%;
+}
+/**----------------------------------*/
+.main4{
+    margin-top: -7%;
+}
+/* -----------------------------------------*/
+.main5{
+    height: 100vh;
+}
+.bPic1{
+     background-image: url(jobimg9.jpg);
+    margin-left: 10%;
+    margin-top: 12%;
+} 
+.bPic2{
+        background-color: goldenrod;
+    margin-top: 5%;
+    width: 20%;
+    height: 50vh;
+    margin-left: 39%;
+    margin-top: 1%;
+    background-image: url(jobimg6.jpg);
+} 
+.bPic3{
+       background-color: green;
+    margin-left: 56%;
+    margin-top: 7%;
+    background-image: url(jobimg7.jpg);
+} 
+.bPic4{
+        background-color: red;
+    margin-top: 23%;
+    margin-left: 62%;
+    background-image: url(jobimg10.jpg);
+} 
+.bPic5{
+       background-color: purple;
+    margin-left: 31%;
+    margin-top: 27%;
+    background-image: url(jobimg8.jpg);
+    width: 36%;
+} 
